@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8"/>
+    <title>upload page</title>
+</head>
+<body>
+<div>
+    <form method="POST" enctype="multipart/form-data" th:action="@{api/request/param}">
+        <table>
+            <tr>
+                <td>File to upload:</td>
+                <td><input type="file" name="file"/></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Upload"/></td>
+            </tr>
+        </table>
+    </form>
+    <div>
+        Hello world,Every body
+    </div>
+</div>
+</body>
+</html>
